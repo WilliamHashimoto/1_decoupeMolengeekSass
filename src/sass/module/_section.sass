@@ -1,0 +1,38 @@
+section
+    display: flex
+    align-items: center
+    flex-direction: column
+    line-height: 30px
+    p
+        color: #000000af
+    div
+        .titleSection 
+            font-weight: 300
+            font-size: 40px
+            text-align: center
+            margin-top: 50px
+            margin-bottom: 40px
+        hr
+            width: 20%
+            border: solid 1px $mgPurple
+            opacity: 0.3
+
+    .divText
+        width: 80%
+        ul
+            margin-top: 50px
+            margin-bottom: 40px
+            color: #000000af
+            li
+                list-style: none
+                line-height: 40px
+            li::before
+                content:"\2022"
+                color: $mgPurple
+                font-weight: bold
+                display: inline-block
+                width: 1em
+                margin-left: -1em
+        h1
+            font-weight: 300
+            font-size: 40px
