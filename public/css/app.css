@@ -6242,6 +6242,58 @@ section .divText h1 {
   font-weight: 300;
   font-size: 40px;
 }
+section .divText .pMargin {
+  margin-bottom: 60px;
+}
+
+.footer {
+  background-color: #363636;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer .reseaux {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ffffff25;
+  justify-content: center;
+  width: 100%;
+}
+.footer .reseaux a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 700;
+  margin: 20px;
+}
+.footer .reseaux a i {
+  border: 2px white solid;
+  border-radius: 50%;
+  margin: 15px;
+  padding: 10px;
+}
+.footer .reseaux a p {
+  font-size: 13px;
+}
+.footer .logoCopyright {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .logoCopyright img {
+  width: 130px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.footer .logoCopyright p {
+  color: #ffffff25;
+  font-size: 10px;
+}
 
 body {
   margin: 0;
