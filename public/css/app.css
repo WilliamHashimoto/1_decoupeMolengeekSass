@@ -6125,13 +6125,17 @@ readers do not read off random characters that represent icons */
 }
 .banner .logo {
   text-align: left;
+  width: 3%;
 }
 .banner .logo img {
-  width: 7%;
+  width: 100%;
 }
 .banner .searchBar {
   text-align: center;
-  margin: auto 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 300;
   font-size: 12px;
 }
@@ -6295,6 +6299,189 @@ section .divText .pMargin {
   font-size: 10px;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1347px) {
+  .navbar {
+    height: 50px;
+  }
+  .navbar .logoNavbar {
+    width: 15%;
+  }
+  .navbar .logoNavbar img {
+    width: 70px;
+  }
+  .navbar .ulNavbar ul li a {
+    font-size: 13px;
+  }
+  .navbar .testezNavbar {
+    width: 15%;
+  }
+  .navbar .testezNavbar a .navbarText {
+    font-size: 13px;
+  }
+
+  .divText h1 {
+    line-height: 50px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .navbar {
+    height: 50px;
+  }
+  .navbar .logoNavbar {
+    width: 15%;
+  }
+  .navbar .logoNavbar img {
+    width: 70px;
+  }
+  .navbar .ulNavbar ul {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+  }
+  .navbar .ulNavbar ul li {
+    margin: 5px;
+  }
+  .navbar .ulNavbar ul li a {
+    font-size: 10px;
+  }
+  .navbar .testezNavbar {
+    width: 15%;
+  }
+  .navbar .testezNavbar a .navbarText {
+    font-size: 10px;
+  }
+  .navbar h1 {
+    line-height: 50px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .banner .logo {
+    display: none;
+  }
+  .banner .searchBar {
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
+  }
+  .banner .searchBar label {
+    font-size: 10px;
+  }
+  .banner .searchBar input {
+    line-height: 15px;
+  }
+  .banner .searchBar button {
+    line-height: 15px;
+  }
+
+  .navbar {
+    height: 50px;
+    flex-direction: column;
+    border: none;
+    height: auto;
+  }
+  .navbar .logoNavbar {
+    width: 15%;
+    border: 1px solid #cdcdcd;
+    margin: 15px;
+  }
+  .navbar .logoNavbar img {
+    width: 70px;
+  }
+  .navbar .ulNavbar ul {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+  }
+  .navbar .ulNavbar ul li {
+    margin: 5px;
+  }
+  .navbar .ulNavbar ul li a {
+    font-size: 10px;
+  }
+  .navbar .testezNavbar {
+    width: 15%;
+    border: 1px solid #cdcdcd;
+  }
+  .navbar .testezNavbar a .navbarText {
+    font-size: 7px;
+  }
+
+  .divText h1 {
+    line-height: 50px;
+  }
+
+  .footer .reseaux {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .reseaux a {
+    margin: 5px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 424px) {
+  .banner .logo {
+    display: none;
+  }
+  .banner .searchBar {
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
+  }
+  .banner .searchBar label {
+    font-size: 10px;
+  }
+  .banner .searchBar input {
+    line-height: 15px;
+  }
+  .banner .searchBar button {
+    line-height: 15px;
+  }
+
+  .navbar {
+    height: 50px;
+    flex-direction: column;
+    border: none;
+    height: auto;
+  }
+  .navbar .logoNavbar {
+    width: 23%;
+    border: 1px solid #cdcdcd;
+    margin: 15px;
+  }
+  .navbar .logoNavbar img {
+    width: 70px;
+  }
+  .navbar .ulNavbar ul {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+  }
+  .navbar .ulNavbar ul li {
+    margin: 5px;
+  }
+  .navbar .ulNavbar ul li a {
+    font-size: 10px;
+  }
+  .navbar .testezNavbar {
+    width: 15%;
+    border: 1px solid #cdcdcd;
+  }
+  .navbar .testezNavbar a .navbarText {
+    font-size: 7px;
+  }
+
+  .divText h1 {
+    line-height: 50px;
+  }
+
+  .footer .reseaux {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .reseaux a {
+    margin: 5px;
+  }
+}
 body {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
